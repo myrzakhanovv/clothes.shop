@@ -404,6 +404,21 @@ textarea {
        url('../fonts/rubik-mono-one-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+@media (max-width: 768px) {
+    .widget-right {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    border-radius: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .widget-left {
+    border-radius: 0;
+    }
+}
+
 html{
     box-sizing: border-box;
 }
@@ -739,11 +754,13 @@ body{
     opacity: .9;
     border-radius: 10px;
     transition: all .4s ease;
+    background-color: #D2691E;
 }
 
 .bar:hover{
+    background-color: #800000;
     opacity: .8;
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 
 input[name=r]{
